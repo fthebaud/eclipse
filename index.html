@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="eclipse">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>For Eclipse, with love.</title>
+    <link rel="stylesheet" type="text/css" href="app/css/style.css">
+    <title>Love letter to Eclipse</title>
   </head>
   <body>
 
-    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-    	<div class="flipper">
-    		<div class="front">
-    			<!-- front content -->
-          <img src="img/00.jpg" alt="<3">
-    		</div>
-    		<div class="back">
-    			<!-- back content -->
-          <img src="img/01.png" alt="</3">
-    		</div>
-    	</div>
-    </div>
+    <tile></tile>
+
+    <!-- imports -->
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/tile/tile.component.js"></script>
 
   </body>
 </html>
