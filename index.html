@@ -9,24 +9,11 @@
     <title>A love letter to Eclipse</title>
   </head>
   <body>
-    <div class="row">
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
-      <tile></tile>
+
+    <div class="row" ng-controller="LayoutController">
+      <tile ng-repeat="i in getArray() track by $index"></tile>
     </div>
-    
+
     <script src="node_modules/angular/angular.js"></script>
     <script src="app/app.js"></script>
     <script src="app/tile/tile.component.js"></script>

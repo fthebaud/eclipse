@@ -6,5 +6,6 @@ angular.module('eclipse')
   .component('tile', {
     templateUrl: 'app/tile/tile.template.html',
     controller: function tileController() {
-    }
+    },
+    controllerAs: 'tileController'
   });
