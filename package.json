@@ -10,5 +10,11 @@
   "license": "MIT",
   "dependencies": {
     "angular": "1.5.8"
+  },
+  "devDependencies": {
+    "http-server": "0.9.0"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1 ."
   }
 }
