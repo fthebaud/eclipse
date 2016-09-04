@@ -9,21 +9,21 @@
     <link rel="stylesheet" type="text/css" href="app/css/flip.css"/>
 
     <link rel="shortcut icon" href="app/img/favicon.ico" />
-    <title>A love letter to Eclipse</title>
+    <title>&lt;3 &lt;3 Eclipse &lt;3 &lt;3</title>
+
   </head>
   <body>
 
     <div class="jumbotron header">
-      <h1>A love letter to Eclipse &lt;3</h1>
+      <h1>A love letter to Eclipse</h1>
     </div>
 
-    <div class="row" ng-controller="LayoutController">
-      <tile ng-repeat="i in getArray() track by $index"></tile>
-    </div>
+    <tile-layout></tile-layout>
 
+    <!-- import js -->
     <script src="node_modules/angular/angular.js"></script>
     <script src="app/app.js"></script>
-    <script src="app/tile/tile.component.js"></script>
+    <script src="app/tile-layout/tile-layout.component.js"></script>
 
   </body>
 </html>
