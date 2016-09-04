@@ -2,5 +2,6 @@
   background-color: rgb(45, 54, 113);
   color: white;
   text-align: center;
+  font-style: italic;
   margin-bottom: 0; /* override jumbotron bottom margin*/
 }

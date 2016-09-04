@@ -2,7 +2,9 @@
 
 /* entire container, keeps perspective */
 .flip-container {
-    perspective: 600px;
+    perspective: 800px;
+    padding-right: 0; /* overwriting bootstrap */
+    padding-left: 0; /* overwriting bootstrap */
 }
 
 /* flip the pane when hovered */
@@ -11,7 +13,7 @@
 }
 
 .flip-container, .front, .back {
-    width: 450px;
+    width: 400px;
     height: 200px;
 }
 
