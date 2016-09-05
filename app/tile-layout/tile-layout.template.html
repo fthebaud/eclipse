@@ -1,14 +1,14 @@
-<div class="row" >
-  <div ng-repeat="image in tileController.imageIndexes" class="flip-container col-md-1" ontouchstart="this.classList.toggle('hover');">
-    <div class="flipper">
-      <div class="front">
-        <!-- front content -->
-        <img src="app/img/logo.jpg" alt="<3"/>
-      </div>
-      <div class="back">
-        <!-- back content -->
-        <img ng-src="app/img/{{image}}.png" alt="</3"/>
-      </div>
+<div class="content-centered  row">
+    <div ng-repeat="image in tileController.imageIndexes" class="flip-container col-md-1 margin-center" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+            <div class="front">
+                <!-- front content -->
+                <img src="app/img/logo.jpg" alt="<3" />
+            </div>
+            <div class="back">
+                <!-- back content -->
+                <img ng-src="app/img/{{image}}.png" alt="</3" />
+            </div>
+        </div>
     </div>
-  </div>
 </div>
